@@ -6,16 +6,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.api.movieapi.model.MovieModel;
+import com.api.movieapi.service.impl.MovieService;
 
 @RestController
 @RequestMapping("/")
-public class MovieService {
+public class MovieController {
 
     @Autowired
     private MovieService movieService;
 
     @GetMapping("movies")
     public Iterable<MovieModel> getMovie(){
-        return movieService.getMovie();
+        return movieService.getAllMovie();
     }
 }

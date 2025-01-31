@@ -408,3 +408,21 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 108 common frames omitted
 
+2024-10-15T15:18:13.357+02:00  INFO 30544 --- [movie-api] [main] c.api.movieapi.MovieApiApplicationTests  : Starting MovieApiApplicationTests using Java 17.0.10 with PID 30544 (started by omart in C:\workspace\movie-api)
+2024-10-15T15:18:13.361+02:00  INFO 30544 --- [movie-api] [main] c.api.movieapi.MovieApiApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T15:18:14.072+02:00  INFO 30544 --- [movie-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-15T15:18:14.092+02:00  INFO 30544 --- [movie-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-10-15T15:18:14.653+02:00  INFO 30544 --- [movie-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-15T15:18:14.720+02:00  INFO 30544 --- [movie-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-15T15:18:14.768+02:00  INFO 30544 --- [movie-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-15T15:18:15.101+02:00  INFO 30544 --- [movie-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-15T15:18:15.139+02:00  INFO 30544 --- [movie-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-15T15:18:15.475+02:00  INFO 30544 --- [movie-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@601f264d
+2024-10-15T15:18:15.477+02:00  INFO 30544 --- [movie-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-15T15:18:16.002+02:00  INFO 30544 --- [movie-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-15T15:18:16.015+02:00  INFO 30544 --- [movie-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15T15:18:16.263+02:00  WARN 30544 --- [movie-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-15T15:18:16.894+02:00  INFO 30544 --- [movie-api] [main] c.api.movieapi.MovieApiApplicationTests  : Started MovieApiApplicationTests in 3.839 seconds (process running for 4.946)
+2024-10-15T15:18:17.878+02:00  INFO 30544 --- [movie-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15T15:18:17.880+02:00  INFO 30544 --- [movie-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-15T15:18:17.889+02:00  INFO 30544 --- [movie-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
